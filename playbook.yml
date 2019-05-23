@@ -1,0 +1,9 @@
+---
+
+- name: Web01
+  hosts: web01
+  become: yes
+  roles:
+    - general
+    - apache
+    
